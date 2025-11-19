@@ -9,10 +9,12 @@ export default function Header({ scrollToSection }: HeaderProps) {
     <header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <Icon name="Shield" className="text-white" size={24} />
-            </div>
+          <div className="flex items-center gap-3">
+            <img 
+              src="https://cdn.poehali.dev/files/a25df2af-fea8-42d1-84b0-a36c79146fe3.png" 
+              alt="Герб Росгвардии" 
+              className="w-12 h-12 object-contain"
+            />
             <span className="text-xl font-bold text-gray-900">Росгвардия</span>
           </div>
           <div className="hidden md:flex items-center gap-6">

@@ -216,10 +216,12 @@ export default function Index() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
-              <div className="flex items-center gap-2 mb-4">
-                <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                  <Icon name="Shield" className="text-white" size={24} />
-                </div>
+              <div className="flex items-center gap-3 mb-4">
+                <img 
+                  src="https://cdn.poehali.dev/files/a25df2af-fea8-42d1-84b0-a36c79146fe3.png" 
+                  alt="Герб Росгвардии" 
+                  className="w-12 h-12 object-contain"
+                />
                 <span className="text-xl font-bold">Росгвардия</span>
               </div>
               <p className="text-gray-400">
