@@ -36,7 +36,7 @@ export default function CallForm() {
           <CardContent className="pt-6">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="space-y-2">
-                <Label htmlFor="name">Ваше имя *</Label>
+                <Label htmlFor="name">Ваше ФИО *</Label>
                 <Input
                   id="name"
                   value={formData.name}
@@ -47,7 +47,7 @@ export default function CallForm() {
                 />
               </div>
               <div className="space-y-2">
-                <Label htmlFor="phone">Телефон *</Label>
+                <Label htmlFor="phone">ID сервера *</Label>
                 <Input
                   id="phone"
                   type="tel"
