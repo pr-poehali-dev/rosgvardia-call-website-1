@@ -177,9 +177,7 @@ export default function Index() {
                     <CardTitle className="text-lg">Экстренный вызов</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <a href="tel:112" className="text-2xl font-bold text-primary hover:text-red-700">
-                      112
-                    </a>
+                    <a href="tel:112" className="text-2xl font-bold text-primary hover:text-red-700">112</a>
                   </CardContent>
                 </Card>
                 <Card className="text-center">
@@ -190,9 +188,7 @@ export default function Index() {
                     <CardTitle className="text-lg">Email</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <a href="mailto:info@rosgvardia.ru" className="text-primary hover:text-red-700">
-                      info@rosgvardia.ru
-                    </a>
+                    <a href="mailto:info@rosgvardia.ru" className="text-primary hover:text-red-700">Временно недоступно</a>
                   </CardContent>
                 </Card>
                 <Card className="text-center">
@@ -203,7 +199,7 @@ export default function Index() {
                     <CardTitle className="text-lg">Адрес</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-gray-600">г. Москва, ул. Примерная, д. 1</p>
+                    <p className="text-gray-600">Временно недоступно</p>
                   </CardContent>
                 </Card>
               </div>
