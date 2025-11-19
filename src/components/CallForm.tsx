@@ -59,7 +59,7 @@ export default function CallForm() {
                 />
               </div>
               <div className="space-y-2">
-                <Label htmlFor="address">Адрес *</Label>
+                <Label htmlFor="address">Место проишествия *</Label>
                 <Input
                   id="address"
                   value={formData.address}
