@@ -248,7 +248,7 @@ export default function Index() {
             </div>
           </div>
           <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Росгвардия. Все права защищены.</p>
+            <p>© 2025 Специальная Служба Росгвардии. Все права защищены. | Игровой контент</p>
           </div>
         </div>
       </footer>
